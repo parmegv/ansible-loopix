@@ -25,3 +25,13 @@ Including an example of how to use your role (for instance, with variables passe
     - hosts: servers
       roles:
          - { role: loopix, loopix_git_repo: "https://github.com/parmegv/loopix.git" }
+
+License
+--------
+
+BSD
+
+Author Information
+--------------------
+
+Rafael Gálvez Vizcaíno
