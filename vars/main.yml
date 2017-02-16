@@ -1,0 +1,15 @@
+---
+# vars file for loopix
+apt_dependencies:
+  - git
+  - libssl-dev
+  - python
+  - python-dev
+  - python-virtualenv
+  - libffi-dev
+  - libpng-dev # matplotlib
+  - libxft-dev # matplotlib
+  - g++ # matplotlib
+  - libblas-dev # scipy
+  - liblapack-dev # scipy
+  - gfortran # scipy

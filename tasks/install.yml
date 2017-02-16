@@ -1,0 +1,10 @@
+- name: "Clone loopix git repository"
+  git:
+    repo: "{{ loopix_git_repo }}"
+    dest: "{{ loopix_dir }}"
+
+- name: "Install loopix with setup.py via editable"
+  pip:
+    name: "{{ loopix_dir }}"
+    editable: true
+    virtualenv: "{{ loopix_virtualenv }}"

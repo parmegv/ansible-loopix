@@ -1,0 +1,19 @@
+---
+# tasks file for loopix
+- include: debian_apt_deps.yml
+  when: ansible_os_family == "Debian"
+
+- include: install.yml
+
+- name: "Install pip dependencies"
+  pip:
+    name: "{{ item }}"
+    virtualenv: "~/.virtualenvs/loopix"
+  with_items:
+    - sphinxmix
+    - fabric
+    - boto3
+    - matplotlib
+    - scipy
+    - scapy
+    - petlib

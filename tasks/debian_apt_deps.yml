@@ -1,0 +1,6 @@
+- name: "Install Debian apt dependencies"
+  apt:
+    name: "{{ item }}"
+    state: latest
+  become: yes
+  with_items: "{{ apt_dependencies }}"

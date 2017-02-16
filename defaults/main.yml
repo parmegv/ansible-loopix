@@ -1,0 +1,5 @@
+---
+# defaults file for loopix
+loopix_git_repo: "https://github.com/UCL-InfoSec/loopix.git"
+loopix_dir: "~/loopix"
+loopix_virtualenv: "~/.virtualenvs/loopix"
