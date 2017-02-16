@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/parmegv/ansible-loopix.svg?branch=master)](https://travis-ci.org/parmegv/ansible-loopix)
+
 Role Name
 =========
 
